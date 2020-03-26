@@ -1,0 +1,18 @@
+Source: cudd
+Section: misc
+Priority: optional
+Maintainer: Ian A Mason <iam@csl.sri.com>
+Build-Depends: debhelper (>= 10)
+Standards-Version: 4.1.2
+Homepage: https://github.com/ivmai/cudd
+#Vcs-Git: https://anonscm.debian.org/git/collab-maint/cudd.git
+#Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/cudd.git
+
+Package: cudd
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Colorado University Decision Diagram package
+ The CUDD package is a package written in C for the manipulation of
+ decision diagrams.  It supports binary decision diagrams (BDDs),
+ algebraic decision diagrams (ADDs), and Zero-Suppressed BDDs (ZDDs).
+

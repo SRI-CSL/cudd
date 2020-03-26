@@ -1,0 +1,5 @@
+cudd (3.0.0-0ubuntu1) bionic; urgency=medium
+
+  * Initial release
+
+ -- Ian A Mason <iam@csl.sri.com>  Wed, 25 Mar 2020 22:41:58 +0000
