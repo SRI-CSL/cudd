@@ -10,7 +10,7 @@ Homepage: https://github.com/ivmai/cudd
 
 Package: cudd
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}
 Description: Colorado University Decision Diagram package
  The CUDD package is a package written in C for the manipulation of
  decision diagrams.  It supports binary decision diagrams (BDDs),
